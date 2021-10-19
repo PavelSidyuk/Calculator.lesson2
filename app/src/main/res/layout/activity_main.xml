@@ -3,6 +3,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:columnCount="4"
     android:padding="20dp"
     android:background="@drawable/fon">
@@ -29,7 +30,9 @@
         android:backgroundTint="#767E76"
         android:text="@string/key_reset"
         android:textColor="#FD0303"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_delete"
@@ -40,7 +43,9 @@
         android:backgroundTint="#767E76"
         android:text="@string/key_delete"
         android:textColor="#FD0303"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_percent"
@@ -51,7 +56,9 @@
         android:backgroundTint="#767E76"
         android:text="@string/key_percent"
         android:textColor="#FD0303"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4dp"
+        />
 
     <Button
         android:id="@+id/key_division"
@@ -62,7 +69,9 @@
         android:backgroundTint="#767E76"
         android:text="@string/key_division"
         android:textColor="#FD0303"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_1"
@@ -72,7 +81,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_1"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_2"
@@ -82,7 +93,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_2"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_3"
@@ -92,7 +105,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_3"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_multiplication"
@@ -103,7 +118,9 @@
         android:backgroundTint="#767E76"
         android:text="@string/key_multiplication"
         android:textColor="#FD0303"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_4"
@@ -113,7 +130,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_4"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_5"
@@ -123,7 +142,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_5"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_6"
@@ -133,7 +154,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_6"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_subtraction"
@@ -144,7 +167,9 @@
         android:backgroundTint="#767E76"
         android:text="@string/key_subtraction"
         android:textColor="#FD0303"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_7"
@@ -154,7 +179,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_7"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_8"
@@ -164,7 +191,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_8"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_9"
@@ -174,7 +203,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_9"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_addition"
@@ -185,7 +216,9 @@
         android:backgroundTint="#767E76"
         android:text="@string/key_addition"
         android:textColor="#FD0303"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
 
     <Button
@@ -196,7 +229,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_0"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_dot"
@@ -206,7 +241,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#767E76"
         android:text="@string/key_dot"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
     <Button
         android:id="@+id/key_equally"
@@ -216,7 +253,9 @@
         android:layout_gravity="fill_horizontal"
         android:backgroundTint="#FD0303"
         android:text="@string/key_equally"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:layout_margin="4"
+        />
 
 
 </GridLayout>
