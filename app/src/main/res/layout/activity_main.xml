@@ -1,218 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fon"
     android:columnCount="4"
-    android:background="@drawable/fon">
+    android:padding="20dp">
 
-    <EditText
+    <TextView
         android:id="@+id/text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_columnSpan="4"
         android:layout_gravity="fill_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="@dimen/text_margin"
+        android:gravity="end"
         android:hint="@string/hint_calc"
-        android:textSize="20sp" />
+        android:padding="@dimen/text_padding"
+        android:textSize="@dimen/text_size" />
 
-    <Button
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_reset"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_reset"
-        android:textColor="#FD0303"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style"
+        android:text="@string/key_reset" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_delete"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_delete"
-        android:textColor="#FD0303"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style"
+        android:text="@string/key_delete" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_percent"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_percent"
-        android:textColor="#FD0303"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style"
+        android:text="@string/key_percent" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_division"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_division"
-        android:textColor="#FD0303"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style"
+        android:text="@string/key_division" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_1"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style.kay_button"
+        android:text="@string/key_1" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_2"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style.kay_button"
+        android:text="@string/key_2" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_3"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style.kay_button"
+        android:text="@string/key_3" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_multiplication"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_multiplication"
-        android:textColor="#FD0303"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style"
+        android:text="@string/key_multiplication" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_4"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style.kay_button"
+        android:text="@string/key_4" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_5"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_5"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style.kay_button"
+        android:text="@string/key_5" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_6"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_6"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style.kay_button"
+        android:text="@string/key_6" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_subtraction"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
-        android:text="@string/key_subtraction"
-        android:textColor="#FD0303"
-        android:textSize="20sp" />
+        style="@style/calculator_button_style"
+        android:text="@string/key_subtraction" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_7"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
+        style="@style/calculator_button_style.kay_button"
         android:text="@string/key_7"
-        android:textSize="20sp" />
+         />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_8"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
+        style="@style/calculator_button_style.kay_button"
         android:text="@string/key_8"
-        android:textSize="20sp" />
+         />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_9"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
+        style="@style/calculator_button_style.kay_button"
         android:text="@string/key_9"
-        android:textSize="20sp" />
 
-    <Button
+        />
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_addition"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
+        style="@style/calculator_button_style"
         android:text="@string/key_addition"
-        android:textColor="#FD0303"
-        android:textSize="20sp" />
+        />
 
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_columnSpan="2"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
         android:text="@string/key_0"
-        android:textSize="20sp" />
+        style="@style/calculator_zero_style" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_dot"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#767E76"
+        style="@style/calculator_button_style.kay_button"
         android:text="@string/key_dot"
-        android:textSize="20sp" />
+         />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/key_equally"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_columnWeight="1"
-        android:layout_gravity="fill_horizontal"
-        android:backgroundTint="#FD0303"
+        style="@style/calculator_button_style"
         android:text="@string/key_equally"
-        android:textSize="20sp"/>
+         />
 
 
 </GridLayout>
